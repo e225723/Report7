@@ -22,8 +22,8 @@ void sourt(int array[], int size){
 }
 
 int main(){
-    const int SIZE = 5; //定数として配列のサイズを宣言
-    int scores[SIZE] = {0, 60, 70, 100, 90};
+    const int SIZE = 6; //定数として配列のサイズを宣言
+    int scores[SIZE] = {100, 60, 70, 100, 90, 80};
 
     // 関数呼び出し時には、引数として配列名をそのまま記述する。
     printf("ソート前の配列です\n");
